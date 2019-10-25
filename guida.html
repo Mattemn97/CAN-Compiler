@@ -1,0 +1,242 @@
+<html>
+
+<head>
+    <title>Compilatore e convertitore VTSystem</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="js/support/p5.js"></script>
+    <script src="js/support/w3.js"></script>
+    <script src="js/support/w3color.js"></script>
+    <script scr="js/funzioni.js"></script>
+
+</head>
+
+<body>
+    <header class="w3-container">
+        <h1>Compilatore guidato di file .CAN</h1>
+    </header>
+    <hr>
+
+    <div class="w3-margin w3-border w3-border-blue-grey w3-container" id="GuidaHT">
+        <h4 class="w3-centre-align w3-blue-grey">Guida alla creazione di un XML</h4>
+        <div class="w3-margin w3-container">
+            <ul class="w3-ul w3-border w3-border-blue-grey w3-light-grey">
+                <li>
+                    <h5>1° passaggio - Prima compilazione</h5>
+                    <h6>Compilare la sezione azzurra con le infromazioni richieste</h6>
+                </li>
+                <li>
+                    <h5>2° passaggio - Inizializzazione dell'editor</h5>
+                    <h6>E' necessario "aprire" il file .XML
+                        &rArr; Premere il bottone che si trova nella sezione gialla denominato "Apri .XML"</h6>
+                    <h6>Nella sezione grigia saranno comparse le prime righe di codice contenenti le informazioni
+                        precedentemente inserite.</h6>
+                </li>
+                <li>
+                    <h5>3° passaggio - Gestione TEST </h5>
+                    <h6>E' necessario iniziare la sezione del file .XML denominata "SequenzaTest" con una dichiarazione
+                        di un TEST
+                        &rArr; Compilare le aree inerenti e premere il bottone che si trova nella sezione verde
+                        denominato "Aggiungi TEST".</h6>
+                    <h6>Nella sezione grigia saranno comparse le righe di codice contenenti le informazioni
+                        precedentemente inserite.</h6>
+                    <h6>NB: è obbligatorio chiudere un TEST con lo specifico comando tramite il bottone che si trova
+                        nella sezione verde denominato "Chiudi TEST", prima di aggiungerne un altro.</h6>
+                </li>
+                <li>
+                    <h5>4° passaggio - Gestione STEP</h5>
+                    <h6>Prima di procedere con l'inserimento dei singoli comandi è necessaria una dichiarazione di un
+                        STEP
+                        &rArr; Compilare la textbox specifica e premere il bottone che si trova nella sezione verde
+                        denominato "Aggiungi STEP"</h6>
+                    <h6>Nella sezione grigia saranno comparse le righe di codice contenente la dichiarazione e il
+                        commento inerente precedentemente inserito.</h6>
+                    <h6>NB: è obbligatorio chiudere uno STEP con lo specifico comando tramite il bottone che si trova
+                        nella sezione verde denominato "Chiudi STEP", prima di aggiungerne un altro.</h6>
+                </li>
+                <li>
+                    <h5>5° passaggio - Scelta del segnale da utilizzare</h5>
+                    <h6>Selezionare dal menù a tendina nella zona rossa il segnale che si vuole andare a utilizzare
+                        (solo successivamente se ne determinerà la natura effettiva)
+                        &rArr; Compilare la textbox inerente al "valore atteso / da assegnare" e selezionare, tramite lo
+                        slider, un valore del "range di attesa"</h6>
+                    <h6>NB: con "range di attesa" si intende l'ampiezza in positivo, e negativo, da applicare al "valore
+                        atteso".</h6>
+                    <h6>Ex: con "range di attesa" uguale a 2% e "valore atteso" a 45, il range effettivo entro il quale
+                        il risultato è ritenuto accettabile sarà da 44,1 a 45,9.</h6>
+                </li>
+                <li>
+                    <h5>6° passaggio - Da sengale a comando</h5>
+                    <h6>Selezionare dal menù a tendina nella zona gialla il comando che si vuole andare a implementare
+                        (dertminando la natura effettiva del segnale precedentemente selezionato)
+                        &rArr; Compilare la textbox specifica e premere il bottone che si trova nella sezione gialla
+                        denominato "Aggiungi al .XML"</h6>
+                    <h6>NB: se si necessita di cancellare l'ultimo comando inserito &rArr; premere il bottone che si
+                        trova nella sezione gialla denominato "Rimuovi dal .XML"</h6>
+                </li>
+                <li>
+                    <h5>7° passaggio - Chiusura del documento e convalida</h5>
+                    <h6>Una volta che si ritiene di aver inserito tutto ciò che si voleva è necessario "chiudere" il
+                        file e convalidarlo
+                        &rArr; Premere il bottone che si trova nella sezione gialla denominato "Chiudi file .XML" e
+                        successivamente quello presente nella sezione grigia denominato "Convalida file .XML"</h6>
+                </li>
+            </ul>
+        </div>
+        <br>
+    </div>
+
+    <div class="w3-margin w3-border w3-border-blue w3-container" id="Intro">
+        <h4 class="w3-centre-align w3-blue">Inserimento dei tag di informazione utili alla consultazione del XML:
+            &lt;Intro></h4>
+        <div class="w3-margin w3-container">
+            <h5 class="w3-left-align">Sono presenti otto caselle di testo che permettono l'inserimento di ogni singolo
+                campo delle informazioni:
+                <ul class="w3-ul w3-border w3-border-blue w3-pale-blue">
+                    <li>Scopo: scopo per il quale viene eseguito il test</li>
+                    <li>Descrizione/Cambiamenti Versione: descrizione della versione del software caricato sulla centralina</li>
+                    <li>Autore: nome e cognome del programmatore</li>
+                    <li>Veicolo: veicolo del quale si sta testando la centralina</li>
+                    <li>Data: giorno in cui viene compilato il test</li>
+                    <li>Descrizione Sistema: descrizione del VTSystem in uso</li>
+                    <li>Versione: versione del software caricato sulla centralina in test</li>
+                </ul>
+            </h5>
+        </div>
+    </div>
+
+    <div class="w3-margin w3-border w3-border-green w3-container" id="StepTest">
+        <h4 class="w3-centre-align w3-green">Inserimento dei tag di inizio e fine STEP e/o TEST: Step & Test</h4>
+        <div class="w3-margin w3-container">
+            <h5 class="w3-left-align">Sono presenti due caselle di testo che permettono l'inserimento dei commenti per
+                ogni singolo STEP o TEST e
+                4 bottoni che servono a interagire effettivamente con il codice .xml che si sta compilando:
+                <ul class="w3-ul w3-border w3-border-green w3-pale-green">
+                    <li>Aggiungi STEP: aggiunge il commando che corrisponde alla dichiarazione di un nuovo step, con
+                        commento e autoincrementando l’ID.</li>
+                    <li>Rimuovi STEP: aggiunge il commando per la chiusura di uno step.</li>
+                    <li>Aggiungi TEST: aggiunge il commando che corrisponde alla dichiarazione di un nuovo test, con
+                        commento e autoincrementando l’ID.</li>
+                    <li>Rimuovi TEST: aggiunge il commando per la chiusura di uno test.</li>
+                </ul>
+            </h5>
+            <h5 class="w3-left-align">Sono presenti due caselle di testo che permettono l'inserimento dei commenti:
+                <ul class="w3-ul w3-border w3-border-green w3-pale-green">
+                    <li>Commento STEP: scopo per il quale viene eseguito lo STEP</li>
+                    <li>Commento TEST: scopo per il quale viene eseguito il TEST</li>
+                    <li>Requisito che si sta TESTando: descrizione della versione utilizzata dalla centralina</li>
+                    <li>Titolo TEST: descrizione della versione utilizzata dalla centralina</li>
+                </ul>
+            </h5>
+        </div>
+    </div>
+
+    <div class="w3-margin w3-border w3-border-red w3-container" id="QualeSegnale">
+        <h4 class="w3-centre-align w3-red">Selezione del SEGNALE "convertire" in COMANDO: Quale Segnale</h4>
+        <div class="w3-margin w3-container">
+            <h5>La sezione prevede la selezione del segnale col quale si vuole operare e ciò è possibile grazie ad un
+                selettore verticale che va automaticamente a far riferimento ad una tabella contenuta nel database.
+                Le caratteristiche del segnale vengono visualizzate in anteprima:</h5>
+            <ul class="w3-ul w3-border w3-border-red w3-pale-red">
+                <li>Funzione segnale</li>
+                <li>Gruppo</li>
+                <li>Descrizione</li>
+                <li>Connettore</li>
+                <li>PIN RUx</li>
+                <li>PIN VTSystem</li>
+            </ul>
+            <h5>Deve essere inserito il valore atteso / da assegnare al segnale: solo nella sezione successiva si
+                determinerà la sua natura.
+                Inoltre, se necessario verrà preso in considerazione il valore dato allo slider inerente al range di
+                attendibilità del valore atteso.
+            </h5>
+        </div>
+
+    </div>
+
+    <div class="w3-margin w3-border w3-border-yellow w3-container" id="ComeUsarlo">
+        <h4 class="w3-centre-align w3-yellow">Sezione necessaria all'inserimento dei tag di inerenti ad un COMANDO:
+            "Come Usarlo"</h4>
+        <div class="w3-margin w3-container">
+            <h5 class="w3-left-align">In questa sezione è possible determinare che cosa farne del SEGNALE scelto in
+                precedenza. Vi sono 6 diverse possibilità di COMANDO:</h5>
+            <ul class="w3-ul w3-border w3-border-yellow w3-pale-yellow">
+                <li>
+                    <h5>Input_Sistema</h5>
+                    <h6>&lt;IN tipo=”sys”>&lt;nome>Nome_Del_Segnale&lt;/nome>&lt;val>Valore_Assegnato&lt;/val>&lt;/IN>
+                    </h6>
+                </li>
+                <li>
+                    <h5>Input_CAN</h5>
+                    <h6>&lt;IN tipo=”CAN”>&lt;nome>Nome_Del_Segnale&lt;/nome>&lt;val>Valore_Assegnato&lt;/val>&lt;/IN>
+                    </h6>
+                </li>
+                <li>
+                    <h5>Input_Fisico</h5>
+                    <h6>&lt;IN tipo="phys">&lt;nome>Nome_Del_Segnale&lt;/nome>&lt;val>Valore_Assegnato&lt;/val>&lt;/IN>
+                    </h6>
+                </li>
+                <li>
+                    <h5>Output_Fisico</h5>
+                    <h6>&lt;OUT tipo=”sys”>&lt;nome>Nome_Del_Segnale&lt;/nome>&lt;val>Valore_Atteso&lt;/val>&lt;/OUT>
+                    </h6>
+                </li>
+                <li>
+                    <h5>Output_CAN</h5>
+                    <h6>&lt;OUT tipo=”CAN”>&lt;nome>Nome_Del_Segnale&lt;/nome>&lt;val>Valore_Atteso&lt;/val>&lt;/OUT>
+                    </h6>
+                </li>
+                <li>
+                    <h5>Await</h5>
+                    <h6>&lt;action istr="wait" arg1="Valore_Assegnato">&lt;/action></h6>
+                </li>
+            </ul>
+            <h5 class="w3-left-align">Per ogni opzione selezionata il “Nome_Del_Segnale” e il “Valore_Assegnato” o
+                “Valore_Atteso” vengono sostituiti,
+                tramite backprocessing di natura JavaScript contenuto nella pagina,
+                assieme ad altri caratteri che sono stati integrati nelle stringhe RAW del codice per permetterne
+                l’archiviazione nel Database.
+            </h5>
+            <h5 class="w3-left-align">Sono presenti 2 bottoni che servono a interagire effettivamente con il codice .xml
+                che si sta compilando:
+                <ul class="w3-ul w3-border w3-border-yellow w3-pale-yellow">
+                    <li>Aggiungi al file .XML: aggiunge il comandi in anteprima al file .XML.</li>
+                    <li>Rimuovi dal file .XML: rimuove l’ultima riga di commando inserita.</li>
+                </ul>
+            </h5>
+        </div>
+    </div>
+
+    <div class="w3-margin w3-border w3-border-orange w3-container" id="FAQ">
+        <h4 class="w3-centre-align w3-orange">Manuntenzione e FAQ</h4>
+        <div class="w3-margin w3-container">
+            <ul class="w3-ul w3-border w3-border-orange w3-light-orange">
+                <li>
+                    <h5><b>Qual è il senso della vita?</b></h5>
+                    <h6>42</h6>
+                </li>
+                <li>
+                    <h5><b>Domanda</b></h5>
+                    <h6>Risposta</h6>
+                </li>
+            </ul>
+        </div>
+        <br>
+    </div>
+
+    <div class="w3-margin w3-container w3-padding-16">
+        <h3 class="w3-text-white">Bello sto codice nasconsto vero?</h3>
+    </div>
+
+    <footer class="w3-container w3-bottom w3-black w3-padding-16 w3-cell-row">
+        <h4 class="w3-text-white w3-half">Sito creato da Matteo Filippini</h4>
+        <h5 class="w3-text-white w3-half">Link per contattarmi si trovano qua <a
+                href="http://mattemn97.github.io">Matteo Filippini</a></h5>
+    </footer>
+
+</body>
+
+</html>

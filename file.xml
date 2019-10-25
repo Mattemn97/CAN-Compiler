@@ -1,0 +1,1218 @@
+			<IN tipo='CAN'><nome>Steering_column_horn_switch</nome><val>45645</val></IN>
+			<IN tipo='CAN'><nome>Steering_column_horn_switch</nome><val>45645</val></IN>
+			<IN tipo='CAN'><nome>Steering_column_horn_switch</nome><val>45645</val></IN>
+			<IN tipo='CAN'><nome>Steering_column_horn_switch</nome><val>45645</val></IN>
+			<IN tipo='CAN'><nome>Steering_column_horn_switch</nome><val>45645</val></IN>
+			<IN tipo='CAN'><nome>Steering_column_horn_switch</nome><val>45645</val></IN>
+			<IN tipo='CAN'><nome>Steering_column_horn_switch</nome><val>45645</val></IN>
+	<test ID="0" tipo="Operativo">
+		<REQUISITO>3456</REQUISITO>
+		<HEAD>4564</HEAD>
+		<COMMENT>test</COMMENT>
+	<test ID="0" tipo="Operativo">
+		<REQUISITO>3456</REQUISITO>
+		<HEAD>4564</HEAD>
+		<COMMENT>test</COMMENT>
+		</step>
+		</step>
+		</step>
+	</test>
+	</test>
+		<step ID="4"><COMMENT>step</COMMENT>
+		<step ID="4"><COMMENT>step</COMMENT>
+</SequenzaTest> 
+
+
+<DUT name="ACV">
+	<PinOUT>
+		<Pin ID="265">
+            	<Num>265</Num>
+            	<Conn>RUC_J1A</Conn>
+            	<PinRUX>201</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Supply_K25</Funz>
+		</Pin>
+		<Pin ID="266">
+            	<Num>266</Num>
+            	<Conn>RUC_J1A</Conn>
+            	<PinRUX>202</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Supply_K26</Funz>
+		</Pin>
+		<Pin ID="267">
+            	<Num>267</Num>
+            	<Conn>RUC_J1A</Conn>
+            	<PinRUX>203</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Supply_K27</Funz>
+		</Pin>
+		<Pin ID="268">
+            	<Num>268</Num>
+            	<Conn>RUC_J1A</Conn>
+            	<PinRUX>204</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Supply_K28</Funz>
+		</Pin>
+		<Pin ID="269">
+            	<Num>269</Num>
+            	<Conn>RUC_J1A</Conn>
+            	<PinRUX>205</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Supply_K29</Funz>
+		</Pin>
+		<Pin ID="270">
+            	<Num>270</Num>
+            	<Conn>RUC_J1A</Conn>
+            	<PinRUX>206</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Supply_K30</Funz>
+		</Pin>
+		<Pin ID="271">
+            	<Num>271</Num>
+            	<Conn>RUC_J1B</Conn>
+            	<PinRUX>246</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>K30_CPU</Funz>
+		</Pin>
+		<Pin ID="272">
+            	<Num>272</Num>
+            	<Conn>RUC_J1C</Conn>
+            	<PinRUX>220</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>WAKE-UP</Funz>
+		</Pin>
+		<Pin ID="273">
+            	<Num>273</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>118</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="274">
+            	<Num>274</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>119</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="275">
+            	<Num>275</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>120</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="276">
+            	<Num>276</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>121</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="277">
+            	<Num>277</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>142</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="278">
+            	<Num>278</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>143</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="279">
+            	<Num>279</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>144</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="280">
+            	<Num>280</Num>
+            	<Conn>RUC_J1D</Conn>
+            	<PinRUX>145</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Ground</Funz>
+		</Pin>
+		<Pin ID="281">
+            	<Num>281</Num>
+            	<Conn>RUC_J1E</Conn>
+            	<PinRUX>0</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz></Funz>
+		</Pin>
+		<Pin ID="282">
+            	<Num>282</Num>
+            	<Conn>RUC_J1F</Conn>
+            	<PinRUX>207</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Supply</Grup>
+            	<Descr></Descr>
+            	<Funz>Aftef_run_signal_K15</Funz>
+		</Pin>
+		<Pin ID="283">
+            	<Num>283</Num>
+            	<Conn>RUC_J2a</Conn>
+            	<PinRUX>103</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_cooling_Potentiometer</Funz>
+		</Pin>
+		<Pin ID="284">
+            	<Num>284</Num>
+            	<Conn>RUC_J2A</Conn>
+            	<PinRUX>153</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Task_lights_WHITE_output</Funz>
+		</Pin>
+		<Pin ID="285">
+            	<Num>285</Num>
+            	<Conn>RUC_J2B</Conn>
+            	<PinRUX>177</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Task_lights_BLUE_output</Funz>
+		</Pin>
+		<Pin ID="286">
+            	<Num>286</Num>
+            	<Conn>RUC_J2C</Conn>
+            	<PinRUX>156</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>ECM_cooling_K15_override</Funz>
+		</Pin>
+		<Pin ID="287">
+            	<Num>287</Num>
+            	<Conn>RUC_J2D</Conn>
+            	<PinRUX>180</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_buzzer</Funz>
+		</Pin>
+		<Pin ID="288">
+            	<Num>288</Num>
+            	<Conn>RUC_J2E</Conn>
+            	<PinRUX>159</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Supply_CTIS</Funz>
+		</Pin>
+		<Pin ID="289">
+            	<Num>289</Num>
+            	<Conn>RUC_J2F</Conn>
+            	<PinRUX>183</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Sight_washer_pump</Funz>
+		</Pin>
+		<Pin ID="290">
+            	<Num>290</Num>
+            	<Conn>RUC_J2g</Conn>
+            	<PinRUX>115</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Pump1_supply_diag</Funz>
+		</Pin>
+		<Pin ID="291">
+            	<Num>291</Num>
+            	<Conn>RUC_J2G</Conn>
+            	<PinRUX>186</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Dust_extraction_fan_lamp</Funz>
+		</Pin>
+		<Pin ID="292">
+            	<Num>292</Num>
+            	<Conn>RUC_J2h</Conn>
+            	<PinRUX>139</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Pump2_supply_diag</Funz>
+		</Pin>
+		<Pin ID="293">
+            	<Num>293</Num>
+            	<Conn>RUC_J2H</Conn>
+            	<PinRUX>162</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Dust_extraction_fan_switch_1</Funz>
+		</Pin>
+		<Pin ID="294">
+            	<Num>294</Num>
+            	<Conn>RUC_J2i</Conn>
+            	<PinRUX>122</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Sensor3_voltage_fdbk</Funz>
+		</Pin>
+		<Pin ID="295">
+            	<Num>295</Num>
+            	<Conn>RUC_J2j</Conn>
+            	<PinRUX>146</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Sensor4_voltage_fdbk</Funz>
+		</Pin>
+		<Pin ID="296">
+            	<Num>296</Num>
+            	<Conn>RUC_J2J</Conn>
+            	<PinRUX>189</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Windscreen_motor</Funz>
+		</Pin>
+		<Pin ID="297">
+            	<Num>297</Num>
+            	<Conn>RUC_J2K</Conn>
+            	<PinRUX>101</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>AWD_active_lamp</Funz>
+		</Pin>
+		<Pin ID="298">
+            	<Num>298</Num>
+            	<Conn>RUC_J2k</Conn>
+            	<PinRUX>106</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>SW_address_config_3</Funz>
+		</Pin>
+		<Pin ID="299">
+            	<Num>299</Num>
+            	<Conn>RUC_J2L</Conn>
+            	<PinRUX>125</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Differential_lock_active_lamp</Funz>
+		</Pin>
+		<Pin ID="300">
+            	<Num>300</Num>
+            	<Conn>RUC_J2m</Conn>
+            	<PinRUX>114</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>AFES_test_fdbk</Funz>
+		</Pin>
+		<Pin ID="301">
+            	<Num>301</Num>
+            	<Conn>RUC_J2M</Conn>
+            	<PinRUX>149</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Engine_Heater_switch</Funz>
+		</Pin>
+		<Pin ID="302">
+            	<Num>302</Num>
+            	<Conn>RUC_J2N</Conn>
+            	<PinRUX>173</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Battle_Mode_switch</Funz>
+		</Pin>
+		<Pin ID="303">
+            	<Num>303</Num>
+            	<Conn>RUC_J2n</Conn>
+            	<PinRUX>257</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Battery_1-2-3_current_return</Funz>
+		</Pin>
+		<Pin ID="304">
+            	<Num>304</Num>
+            	<Conn>RUC_J2P</Conn>
+            	<PinRUX>152</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>Brake</Grup>
+            	<Descr></Descr>
+            	<Funz>Parking_brake_switch</Funz>
+		</Pin>
+		<Pin ID="305">
+            	<Num>305</Num>
+            	<Conn>RUC_J2R</Conn>
+            	<PinRUX>176</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>SERVICE_Lights_enable</Funz>
+		</Pin>
+		<Pin ID="306">
+            	<Num>306</Num>
+            	<Conn>RUC_J2s</Conn>
+            	<PinRUX>111</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Sensors_voltage_1_diag</Funz>
+		</Pin>
+		<Pin ID="307">
+            	<Num>307</Num>
+            	<Conn>RUC_J2S</Conn>
+            	<PinRUX>155</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>ALL_OFF_lights_signal</Funz>
+		</Pin>
+		<Pin ID="308">
+            	<Num>308</Num>
+            	<Conn>RUC_J2T</Conn>
+            	<PinRUX>161</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Differential_lock_activation_switch</Funz>
+		</Pin>
+		<Pin ID="309">
+            	<Num>309</Num>
+            	<Conn>RUC_J2U</Conn>
+            	<PinRUX>185</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>4th_axle_activation_switch</Funz>
+		</Pin>
+		<Pin ID="310">
+            	<Num>310</Num>
+            	<Conn>RUC_J2V</Conn>
+            	<PinRUX>151</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Battery_1_recharging_output</Funz>
+		</Pin>
+		<Pin ID="311">
+            	<Num>311</Num>
+            	<Conn>RUC_J2W</Conn>
+            	<PinRUX>194</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Dust_extraction_fan_switch_3</Funz>
+		</Pin>
+		<Pin ID="312">
+            	<Num>312</Num>
+            	<Conn>RUC_J2Z</Conn>
+            	<PinRUX>258</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_cooling_Potentiometer_return</Funz>
+		</Pin>
+		<Pin ID="313">
+            	<Num>313</Num>
+            	<Conn>RUC_J3A</Conn>
+            	<PinRUX>165</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Windscreen_pump</Funz>
+		</Pin>
+		<Pin ID="314">
+            	<Num>314</Num>
+            	<Conn>RUC_J3B</Conn>
+            	<PinRUX>192</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_Fan_High_Speed_Req</Funz>
+		</Pin>
+		<Pin ID="315">
+            	<Num>315</Num>
+            	<Conn>RUC_J3c</Conn>
+            	<PinRUX>108</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>AFES_engine_ventilation_stop_request</Funz>
+		</Pin>
+		<Pin ID="316">
+            	<Num>316</Num>
+            	<Conn>RUC_J3C</Conn>
+            	<PinRUX>168</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>AFES_crew_ventilation_on_request</Funz>
+		</Pin>
+		<Pin ID="317">
+            	<Num>317</Num>
+            	<Conn>RUC_J3D</Conn>
+            	<PinRUX>195</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Dust_extraction_fan_switch_2</Funz>
+		</Pin>
+		<Pin ID="318">
+            	<Num>318</Num>
+            	<Conn>RUC_J3E</Conn>
+            	<PinRUX>171</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Engine_Brake_ON_Lamp</Funz>
+		</Pin>
+		<Pin ID="319">
+            	<Num>319</Num>
+            	<Conn>RUC_J3f</Conn>
+            	<PinRUX>136</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Gearbox_neutral_condition_voltage</Funz>
+		</Pin>
+		<Pin ID="320">
+            	<Num>320</Num>
+            	<Conn>RUC_J3F</Conn>
+            	<PinRUX>154</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Marker_lamp_side_central_RIGHT</Funz>
+		</Pin>
+		<Pin ID="321">
+            	<Num>321</Num>
+            	<Conn>RUC_J3g</Conn>
+            	<PinRUX>116</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Pump3_supply_diag</Funz>
+		</Pin>
+		<Pin ID="322">
+            	<Num>322</Num>
+            	<Conn>RUC_J3G</Conn>
+            	<PinRUX>178</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Marker_lamp_side_central_LEFT</Funz>
+		</Pin>
+		<Pin ID="323">
+            	<Num>323</Num>
+            	<Conn>RUC_J3h</Conn>
+            	<PinRUX>140</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Pump4_supply_diag</Funz>
+		</Pin>
+		<Pin ID="324">
+            	<Num>324</Num>
+            	<Conn>RUC_J3H</Conn>
+            	<PinRUX>157</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Navigation_lamps_output</Funz>
+		</Pin>
+		<Pin ID="325">
+            	<Num>325</Num>
+            	<Conn>RUC_J3i</Conn>
+            	<PinRUX>123</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Engine_ON_(K15)_voltage</Funz>
+		</Pin>
+		<Pin ID="326">
+            	<Num>326</Num>
+            	<Conn>RUC_J3j</Conn>
+            	<PinRUX>147</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Battery_2_3_voltage</Funz>
+		</Pin>
+		<Pin ID="327">
+            	<Num>327</Num>
+            	<Conn>RUC_J3J</Conn>
+            	<PinRUX>181</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Engine_Heater_lamp</Funz>
+		</Pin>
+		<Pin ID="328">
+            	<Num>328</Num>
+            	<Conn>RUC_J3K</Conn>
+            	<PinRUX>160</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Crew_hatch_left_switch</Funz>
+		</Pin>
+		<Pin ID="329">
+            	<Num>329</Num>
+            	<Conn>RUC_J3L</Conn>
+            	<PinRUX>174</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Commander_hatch_switch</Funz>
+		</Pin>
+		<Pin ID="330">
+            	<Num>330</Num>
+            	<Conn>RUC_J3m</Conn>
+            	<PinRUX>138</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Activation_Switch_diag</Funz>
+		</Pin>
+		<Pin ID="331">
+            	<Num>331</Num>
+            	<Conn>RUC_J3M</Conn>
+            	<PinRUX>179</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Hazard_blinker_switch</Funz>
+		</Pin>
+		<Pin ID="332">
+            	<Num>332</Num>
+            	<Conn>RUC_J3N</Conn>
+            	<PinRUX>158</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Navigation_light_switch</Funz>
+		</Pin>
+		<Pin ID="333">
+            	<Num>333</Num>
+            	<Conn>RUC_J3P</Conn>
+            	<PinRUX>182</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Steering_column_horn_switch</Funz>
+		</Pin>
+		<Pin ID="334">
+            	<Num>334</Num>
+            	<Conn>RUC_J3R</Conn>
+            	<PinRUX>251</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>AWD_activation_switch_feedback</Funz>
+		</Pin>
+		<Pin ID="335">
+            	<Num>335</Num>
+            	<Conn>RUC_J3s</Conn>
+            	<PinRUX>135</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Sensors_voltage_2_diag</Funz>
+		</Pin>
+		<Pin ID="336">
+            	<Num>336</Num>
+            	<Conn>RUC_J3S</Conn>
+            	<PinRUX>238</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Steering_column_turn_right_left_switch</Funz>
+		</Pin>
+		<Pin ID="337">
+            	<Num>337</Num>
+            	<Conn>RUC_J3T</Conn>
+            	<PinRUX>188</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Retarder_activation_switch</Funz>
+		</Pin>
+		<Pin ID="338">
+            	<Num>338</Num>
+            	<Conn>RUC_J3U</Conn>
+            	<PinRUX>164</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Retarder_level_up/down_switch</Funz>
+		</Pin>
+		<Pin ID="339">
+            	<Num>339</Num>
+            	<Conn>RUC_J3V</Conn>
+            	<PinRUX>175</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_heating_switch</Funz>
+		</Pin>
+		<Pin ID="340">
+            	<Num>340</Num>
+            	<Conn>RUC_J3W</Conn>
+            	<PinRUX>170</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>SilentBuzzer_checklamp_switch</Funz>
+		</Pin>
+		<Pin ID="341">
+            	<Num>341</Num>
+            	<Conn>RUC_J3X</Conn>
+            	<PinRUX>234</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_cooling_Potentiometer_supply</Funz>
+		</Pin>
+		<Pin ID="342">
+            	<Num>342</Num>
+            	<Conn>RUC_J4a</Conn>
+            	<PinRUX>105</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>SW_address_config_1</Funz>
+		</Pin>
+		<Pin ID="343">
+            	<Num>343</Num>
+            	<Conn>RUC_J4A</Conn>
+            	<PinRUX>150</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Driver_hatch_switch</Funz>
+		</Pin>
+		<Pin ID="344">
+            	<Num>344</Num>
+            	<Conn>RUC_J4b</Conn>
+            	<PinRUX>129</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>SW_address_config_2</Funz>
+		</Pin>
+		<Pin ID="345">
+            	<Num>345</Num>
+            	<Conn>RUC_J4B</Conn>
+            	<PinRUX>184</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Hazard_blinker_lamp</Funz>
+		</Pin>
+		<Pin ID="346">
+            	<Num>346</Num>
+            	<Conn>RUC_J4c</Conn>
+            	<PinRUX>109</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Holding_brake_switch</Funz>
+		</Pin>
+		<Pin ID="347">
+            	<Num>347</Num>
+            	<Conn>RUC_J4C</Conn>
+            	<PinRUX>187</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>FFPH_Enabled_(crew_cabin_heating_USA)</Funz>
+		</Pin>
+		<Pin ID="348">
+            	<Num>348</Num>
+            	<Conn>RUC_J4D</Conn>
+            	<PinRUX>163</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Hatches_and_Engine_cap_open_lamp</Funz>
+		</Pin>
+		<Pin ID="349">
+            	<Num>349</Num>
+            	<Conn>RUC_J4e</Conn>
+            	<PinRUX>113</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Starter_relay_driver_coil_voltage</Funz>
+		</Pin>
+		<Pin ID="350">
+            	<Num>350</Num>
+            	<Conn>RUC_J4E</Conn>
+            	<PinRUX>190</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_heating_lamp</Funz>
+		</Pin>
+		<Pin ID="351">
+            	<Num>351</Num>
+            	<Conn>RUC_J4f</Conn>
+            	<PinRUX>137</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Engine_start_button_pressed_voltage</Funz>
+		</Pin>
+		<Pin ID="352">
+            	<Num>352</Num>
+            	<Conn>RUC_J4F</Conn>
+            	<PinRUX>166</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_cooling_lamp</Funz>
+		</Pin>
+		<Pin ID="353">
+            	<Num>353</Num>
+            	<Conn>RUC_J4g</Conn>
+            	<PinRUX>117</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Sensor1_voltage_fdbk</Funz>
+		</Pin>
+		<Pin ID="354">
+            	<Num>354</Num>
+            	<Conn>RUC_J4G</Conn>
+            	<PinRUX>193</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Windscreen_pump_switch_(reserved)</Funz>
+		</Pin>
+		<Pin ID="355">
+            	<Num>355</Num>
+            	<Conn>RUC_J4h</Conn>
+            	<PinRUX>141</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Bilge_Sensor2_voltage_fdbk</Funz>
+		</Pin>
+		<Pin ID="356">
+            	<Num>356</Num>
+            	<Conn>RUC_J4H</Conn>
+            	<PinRUX>169</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Intercom_Alarm_Signal</Funz>
+		</Pin>
+		<Pin ID="357">
+            	<Num>357</Num>
+            	<Conn>RUC_J4i</Conn>
+            	<PinRUX>124</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Battery_1_voltage</Funz>
+		</Pin>
+		<Pin ID="358">
+            	<Num>358</Num>
+            	<Conn>RUC_J4j</Conn>
+            	<PinRUX>148</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Feedback_RFT_pump_left</Funz>
+		</Pin>
+		<Pin ID="359">
+            	<Num>359</Num>
+            	<Conn>RUC_J4J</Conn>
+            	<PinRUX>196</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>4th_axle_active_lamp</Funz>
+		</Pin>
+		<Pin ID="360">
+            	<Num>360</Num>
+            	<Conn>RUC_J4K</Conn>
+            	<PinRUX>102</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Gunner_hatch_switch</Funz>
+		</Pin>
+		<Pin ID="361">
+            	<Num>361</Num>
+            	<Conn>RUC_J4L</Conn>
+            	<PinRUX>126</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Crew_hatch_right_switch</Funz>
+		</Pin>
+		<Pin ID="362">
+            	<Num>362</Num>
+            	<Conn>RUC_J4m</Conn>
+            	<PinRUX>134</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Battery_1-2-3_current</Funz>
+		</Pin>
+		<Pin ID="363">
+            	<Num>363</Num>
+            	<Conn>RUC_J4M</Conn>
+            	<PinRUX>252</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Steering_column_highbeam_flash_switch</Funz>
+		</Pin>
+		<Pin ID="364">
+            	<Num>364</Num>
+            	<Conn>RUC_J4N</Conn>
+            	<PinRUX>239</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>SERVICE_Lights_switch</Funz>
+		</Pin>
+		<Pin ID="365">
+            	<Num>365</Num>
+            	<Conn>RUC_J4P</Conn>
+            	<PinRUX>253</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>B.O._lights_switch</Funz>
+		</Pin>
+		<Pin ID="366">
+            	<Num>366</Num>
+            	<Conn>RUC_J4R</Conn>
+            	<PinRUX>240</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_Fan_Low_Speed_Req_(USA)_/_clima_enabled_(ITA</Funz>
+		</Pin>
+		<Pin ID="367">
+            	<Num>367</Num>
+            	<Conn>RUC_J4s</Conn>
+            	<PinRUX>112</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Sensors_voltage_3_diag</Funz>
+		</Pin>
+		<Pin ID="368">
+            	<Num>368</Num>
+            	<Conn>RUC_J4S</Conn>
+            	<PinRUX>254</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>B.O._Lights_Enable</Funz>
+		</Pin>
+		<Pin ID="369">
+            	<Num>369</Num>
+            	<Conn>RUC_J4T</Conn>
+            	<PinRUX>191</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Cabin_Airflow_switch</Funz>
+		</Pin>
+		<Pin ID="370">
+            	<Num>370</Num>
+            	<Conn>RUC_J4U</Conn>
+            	<PinRUX>167</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Sight_Washer/dryer_activation_switch</Funz>
+		</Pin>
+		<Pin ID="371">
+            	<Num>371</Num>
+            	<Conn>RUC_J4V</Conn>
+            	<PinRUX>172</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>Windscreen_cam_feedback</Funz>
+		</Pin>
+		<Pin ID="372">
+            	<Num>372</Num>
+            	<Conn>RUC_J4W</Conn>
+            	<PinRUX>241</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup></Grup>
+            	<Descr></Descr>
+            	<Funz>EELS_manual_activation</Funz>
+		</Pin>
+		<Pin ID="373">
+            	<Num>373</Num>
+            	<Conn>RUC_J5A</Conn>
+            	<PinRUX>222</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN1_H</Funz>
+		</Pin>
+		<Pin ID="374">
+            	<Num>374</Num>
+            	<Conn>RUC_J5B</Conn>
+            	<PinRUX>209</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN1_L</Funz>
+		</Pin>
+		<Pin ID="375">
+            	<Num>375</Num>
+            	<Conn>RUC_J5C</Conn>
+            	<PinRUX>235</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN1_Termination_(L)</Funz>
+		</Pin>
+		<Pin ID="376">
+            	<Num>376</Num>
+            	<Conn>RUC_J5D</Conn>
+            	<PinRUX>223</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN2_H</Funz>
+		</Pin>
+		<Pin ID="377">
+            	<Num>377</Num>
+            	<Conn>RUC_J5E</Conn>
+            	<PinRUX>210</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN2_L</Funz>
+		</Pin>
+		<Pin ID="378">
+            	<Num>378</Num>
+            	<Conn>RUC_J5F</Conn>
+            	<PinRUX>236</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN2_Termination_(L)</Funz>
+		</Pin>
+		<Pin ID="379">
+            	<Num>379</Num>
+            	<Conn>RUC_J6A</Conn>
+            	<PinRUX>222</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN1_H</Funz>
+		</Pin>
+		<Pin ID="380">
+            	<Num>380</Num>
+            	<Conn>RUC_J6B</Conn>
+            	<PinRUX>209</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN1_L</Funz>
+		</Pin>
+		<Pin ID="381">
+            	<Num>381</Num>
+            	<Conn>RUC_J6C</Conn>
+            	<PinRUX>235</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN1_Termination_(L)</Funz>
+		</Pin>
+		<Pin ID="382">
+            	<Num>382</Num>
+            	<Conn>RUC_J6D</Conn>
+            	<PinRUX>223</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN2_H</Funz>
+		</Pin>
+		<Pin ID="383">
+            	<Num>383</Num>
+            	<Conn>RUC_J6E</Conn>
+            	<PinRUX>210</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN2_L</Funz>
+		</Pin>
+		<Pin ID="384">
+            	<Num>384</Num>
+            	<Conn>RUC_J6F</Conn>
+            	<PinRUX>236</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN2_Termination_(L)</Funz>
+		</Pin>
+		<Pin ID="385">
+            	<Num>385</Num>
+            	<Conn>RUC_J7A</Conn>
+            	<PinRUX>224</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN3_H</Funz>
+		</Pin>
+		<Pin ID="386">
+            	<Num>386</Num>
+            	<Conn>RUC_J7B</Conn>
+            	<PinRUX>211</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN3_L</Funz>
+		</Pin>
+		<Pin ID="387">
+            	<Num>387</Num>
+            	<Conn>RUC_J7C</Conn>
+            	<PinRUX>237</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN3_Termination_(L)</Funz>
+		</Pin>
+		<Pin ID="388">
+            	<Num>388</Num>
+            	<Conn>RUC_J7D</Conn>
+            	<PinRUX>225</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN4_H</Funz>
+		</Pin>
+		<Pin ID="389">
+            	<Num>389</Num>
+            	<Conn>RUC_J7E</Conn>
+            	<PinRUX>212</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN4_L</Funz>
+		</Pin>
+		<Pin ID="390">
+            	<Num>390</Num>
+            	<Conn>RUC_J7F</Conn>
+            	<PinRUX>216</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN4_Termination_(L)</Funz>
+		</Pin>
+		<Pin ID="391">
+            	<Num>391</Num>
+            	<Conn>RUC_J8A</Conn>
+            	<PinRUX>224</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN3_H</Funz>
+		</Pin>
+		<Pin ID="392">
+            	<Num>392</Num>
+            	<Conn>RUC_J8B</Conn>
+            	<PinRUX>211</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN3_L</Funz>
+		</Pin>
+		<Pin ID="393">
+            	<Num>393</Num>
+            	<Conn>RUC_J8C</Conn>
+            	<PinRUX>237</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN3_Termination_(L)</Funz>
+		</Pin>
+		<Pin ID="394">
+            	<Num>394</Num>
+            	<Conn>RUC_J8D</Conn>
+            	<PinRUX>225</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN4_H</Funz>
+		</Pin>
+		<Pin ID="395">
+            	<Num>395</Num>
+            	<Conn>RUC_J8E</Conn>
+            	<PinRUX>212</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN4_L</Funz>
+		</Pin>
+		<Pin ID="396">
+            	<Num>396</Num>
+            	<Conn>RUC_J8F</Conn>
+            	<PinRUX>216</PinRUX>
+            	<PinVTS></PinVTS>
+            	<Grup>LineaCAN</Grup>
+            	<Descr></Descr>
+            	<Funz>CAN4_Termination_(L)</Funz>
+		</Pin>
+	</PinOUT>
+</DUT>
+</Documento>

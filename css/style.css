@@ -1,0 +1,25 @@
+h1 {font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 28pt; text-align: center}
+h2 {font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 24pt; text-align: center}
+h3 {font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 20pt; text-align: center}
+h4 {font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 16pt; text-align: center}
+h5 {font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 14pt}
+h6 {font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 12pt}
+label{font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 16pt}
+
+code {font-family: Arial, Helvetica, sans-serif; color: #555555; font-size: 12pt}
+footer {font-family: Arial, Helvetica, sans-serif}
+li{font-size: 14pt}
+.w3-light-orange{background-color: #FFE1AF}
+
+.slidecontainer {width: 100%;}
+.slider {-webkit-appearance: none; width: 85%; height: 25px; background: #FFF; outline: none;}
+.slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 25px; height: 25px; background: #FF0000; cursor: pointer;}
+.slider::-moz-range-thumb {width: 25px; height: 25px; background: #FF0000; cursor: pointer;}
+
+.tooltip {position: relative;}
+.tooltip .tooltiptext {visibility: hidden; width: auto; background-color: #555; color: #fff; text-align: center; padding: 5px 0; border-radius: 6px;
+    position: absolute; z-index: 1; bottom: 125%; left: 50%; margin-left: -60px;
+    opacity: 0; transition: opacity 0.3s;}
+.tooltip .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: #555 transparent transparent transparent;}
+.tooltip:hover .tooltiptext { visibility: visible; opacity: 1;}
+
